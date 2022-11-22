@@ -1,0 +1,72 @@
+.row_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red_box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.container:hover .red_box {
+    transform: rotate(90deg);
+    transform-origin: top left;
+}
+
+.blue_box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.container:hover .blue_box {
+    transform: rotate(-90deg);
+    transform-origin: bottom left;
+}
+
+.yellow_box {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.container:hover .yellow_box {
+    transform: rotate(-90deg);
+    transform-origin: top right;
+}
+
+.green_box {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.container:hover .green_box {
+    transform: rotate(90deg);
+    transform-origin: bottom right;
+}
+
+.hi_div {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.container:hover .hi_div {
+    display: flex;
+}
